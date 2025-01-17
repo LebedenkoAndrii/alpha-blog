@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+ruby "3.2.0"
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.1"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
@@ -62,7 +64,6 @@ group :test do
   gem "selenium-webdriver"
 end
 
-group :production do 
-  gem 'pg'
+group :production do
+  gem "pg"
 end
-
